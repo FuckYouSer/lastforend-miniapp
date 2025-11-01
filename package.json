@@ -1,0 +1,12 @@
+{
+  "name": "lastforend-miniapp",
+  "version": "1.0.0",
+  "description": "Telegram Mini App for LastForEnd Airdrop",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "echo 'Deploy to Netlify or GitHub Pages'"
+  },
+  "keywords": ["telegram", "mini-app", "crypto", "airdrop"],
+  "author": "MiTiCoMoN",
+  "license": "MIT"
+}
