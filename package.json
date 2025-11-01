@@ -1,12 +1,30 @@
 {
-  "name": "lastforend-miniapp",
+  "name": "lastforend-advanced-bot",
   "version": "1.0.0",
-  "description": "Telegram Mini App for LastForEnd Airdrop",
-  "main": "index.html",
+  "description": "Advanced Telegram Airdrop Bot with API, Referral & Wallet System",
+  "main": "src/bot.py",
   "scripts": {
-    "deploy": "echo 'Deploy to Netlify or GitHub Pages'"
+    "start": "python src/bot.py",
+    "dev": "python src/bot.py --dev",
+    "setup-db": "python src/database.py --setup"
   },
-  "keywords": ["telegram", "mini-app", "crypto", "airdrop"],
-  "author": "MiTiCoMoN",
+  "dependencies": {
+    "python-telegram-bot": "^20.7",
+    "sqlite3": "^3.42.0",
+    "python-dotenv": "^1.0.0",
+    "requests": "^2.31.0",
+    "flask": "^2.3.3",
+    "web3": "^6.11.0",
+    "celery": "^5.3.4"
+  },
+  "keywords": [
+    "telegram-bot",
+    "airdrop",
+    "crypto",
+    "lastforend",
+    "referral-system",
+    "wallet-integration"
+  ],
+  "author": "LastForEnd Team",
   "license": "MIT"
 }
